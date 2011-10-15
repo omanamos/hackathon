@@ -1,0 +1,15 @@
+{
+  "name": "crplr",
+  "version": "1.0",
+  "background_page": "background.html",
+  "permissions": [
+    "tabs", "http://*/*"
+  ],
+  "browser_action": {
+      "name": "sample",
+      "icons": ["icon.png"]
+  },
+ "content_scripts": [
+    { "matches": ["http://*/*"], "js": ["jquery.js"] }
+  ]
+}
