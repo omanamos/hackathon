@@ -10,6 +10,6 @@
       "icons": ["icon.png"]
   },
  "content_scripts": [
-    { "matches": ["http://*/*"], "js": ["jquery.js"] }
+    { "matches": ["http://*/*"], "js": ["jquery.js", "gmap.js"] }
   ]
 }
